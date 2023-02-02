@@ -96,9 +96,10 @@ function checkAnswer(currentLevel) {
 
 
 
-//funcion para emular sonido
-function playSound(color){
-  let audio = new Audio('../assets/sounds/' + color + '.mp3');
+// Funcion para emular sonidos
+function playSound(color) {
+  let audio = new Audio('./sounds/' + color + '.mp3');
+
   audio.play();
 }
 //funcion para animar el click
